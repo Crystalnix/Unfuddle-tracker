@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>ajax-loader.gif</file>
+        <file>green-indicator.png</file>
+        <file>red-indicator.png</file>
+        <file>add_green_button.png</file>
+        <file>minus_red_button.png</file>
+        <file>attach.png</file>
+        <file>transparent-logo.png</file>
+        <file>logo.png</file>
+        <file>favicon.ico</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>screensnap/icons/arrow.png</file>
+        <file>screensnap/icons/control.png</file>
+        <file>screensnap/icons/line.png</file>
+        <file>screensnap/icons/pixmap.png</file>
+        <file>screensnap/icons/rect.png</file>
+        <file>screensnap/icons/redo.png</file>
+        <file>screensnap/icons/text.png</file>
+        <file>screensnap/icons/undo.png</file>
+        <file>screensnap/icons/brush.png</file>
+        <file>screensnap/icons/brush_color.png</file>
+        <file>screensnap/icons/pen_color.png</file>
+        <file>screensnap/icons/font_color.png</file>
+        <file>screensnap/icons/brush_solid.png</file>
+        <file>screensnap/icons/font.png</file>
+        <file>screensnap/icons/trash.png</file>
+        <file>screensnap/icons/crop.png</file>
+    </qresource>
+</RCC>

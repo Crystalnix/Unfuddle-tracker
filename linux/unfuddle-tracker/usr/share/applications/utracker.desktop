@@ -1,0 +1,12 @@
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=Unfuddle Tracker
+GenericName=utracker
+Comment=Unfuddle Tracker Client for Linux
+Exec=utracker
+Icon=utracker.png
+Terminal=false
+Type=Application
+Categories=Network;Utility;
+StartupNotify=false
