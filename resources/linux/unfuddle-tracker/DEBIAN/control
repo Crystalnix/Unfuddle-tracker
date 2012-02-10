@@ -2,7 +2,7 @@ Package: unfuddle-tracker
 Priority: optional
 Section: internet
 Installed-Size: 3
-Maintainer: unfuddle <thekondr@crystalnix.com>
+Maintainer: unfuddle <contacts@crystalnix.com>
 Architecture: amd64
 Version: 0.1
 Depends: libqtcore4, libqtgui4, libqt4-network, libqt4-xml

@@ -10,100 +10,102 @@ TARGET = utracker
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp \
-    logindialog.cpp \
-    unfuddleapiwrapper.cpp \
-    mainuiwidget.cpp \
-    unfuddledata.cpp \
-    screensnap/property.cpp \
-    screensnap/urcommands/urcommands.cpp \
-    screensnap/objectscontrol/graphicsitemcreator.cpp \
-    screensnap/objectscontrol/objectseditor.cpp \
-    screensnap/objectscontrol/graphicsitemeditor.cpp \
-    screensnap/objectscontrol/graphicsutility.cpp \
-    screensnap/objectscontrol/graphicstextedit.cpp \
-    screensnap/editor/screensnapeditor.cpp \
-    screensnap/dialog/screensnapdialog.cpp \
-    screensnap/screensnap.cpp \
-    screensnap/primitives.cpp \
-    application.cpp \
-    applicationfactory.cpp \
-    preferencesdialog.cpp \
-    labeledlineedit.cpp \
-    qanimationlabel.cpp \
-    labeledplaintextedit.cpp \
-    choosemultiplefileswidget.cpp \
-    choosemultiplefilesentrywidget.cpp \
-    noscrolltextedit.cpp \
-    mystatusbar.cpp \
-    globalshortcut.cpp \
-    oneinstance.cpp \
-    autorun/autorunimp.cpp \
-    autorun/autorun.cpp
+SOURCES += src/main.cpp\
+        src/mainwindow.cpp \
+    src/logindialog.cpp \
+    src/unfuddleapiwrapper.cpp \
+    src/mainuiwidget.cpp \
+    src/unfuddledata.cpp \
+    src/screensnap/property.cpp \
+    src/screensnap/urcommands/urcommands.cpp \
+    src/screensnap/objectscontrol/graphicsitemcreator.cpp \
+    src/screensnap/objectscontrol/objectseditor.cpp \
+    src/screensnap/objectscontrol/graphicsitemeditor.cpp \
+    src/screensnap/objectscontrol/graphicsutility.cpp \
+    src/screensnap/objectscontrol/graphicstextedit.cpp \
+    src/screensnap/editor/screensnapeditor.cpp \
+    src/screensnap/dialog/screensnapdialog.cpp \
+    src/screensnap/screensnap.cpp \
+    src/screensnap/primitives.cpp \
+    src/application.cpp \
+    src/applicationfactory.cpp \
+    src/preferencesdialog.cpp \
+    src/labeledlineedit.cpp \
+    src/qanimationlabel.cpp \
+    src/labeledplaintextedit.cpp \
+    src/choosemultiplefileswidget.cpp \
+    src/choosemultiplefilesentrywidget.cpp \
+    src/noscrolltextedit.cpp \
+    src/mystatusbar.cpp \
+    src/globalshortcut.cpp \
+    src/oneinstance.cpp \
+    src/autorun/autorunimp.cpp \
+    src/autorun/autorun.cpp
 
-HEADERS  += mainwindow.h \
-    logindialog.h \
-    unfuddleapiwrapper.h \
-    mainuiwidget.h \
-    unfuddledata.h \
-    screensnap/property.h \
-    screensnap/urcommands/urcommands.h \
-    screensnap/objectscontrol/graphicsitemcreator.h \
-    screensnap/objectscontrol/objectseditor.h \
-    screensnap/objectscontrol/graphicsitemeditor.h \
-    screensnap/objectscontrol/graphicsutility.h \
-    screensnap/objectscontrol/graphicstextedit.h \
-    screensnap/editor/screensnapeditor.h \
-    screensnap/dialog/screensnapdialog.h \
-    screensnap/screensnap.h \
-    screensnap/primitives.h \
-    screensnap/metatypetextdocument.h \
-    application.h \
-    applicationfactory.h \
-    preferencesdialog.h \
-    labeledlineedit.h \
-    qanimationlabel.h \
-    labeledplaintextedit.h \
-    choosemultiplefileswidget.h \
-    choosemultiplefilesentrywidget.h \
-    noscrolltextedit.h \
-    mystatusbar.h \
-    globalshortcut.h \
-    settingskeys.h \
-    oneinstance.h \
-    autorun/macautorun.h \
-    autorun/autorunimp.h \
-    autorun/autorun.h
+HEADERS  += src/mainwindow.h \
+    src/logindialog.h \
+    src/unfuddleapiwrapper.h \
+    src/mainuiwidget.h \
+    src/unfuddledata.h \
+    src/screensnap/property.h \
+    src/screensnap/urcommands/urcommands.h \
+    src/screensnap/objectscontrol/graphicsitemcreator.h \
+    src/screensnap/objectscontrol/objectseditor.h \
+    src/screensnap/objectscontrol/graphicsitemeditor.h \
+    src/screensnap/objectscontrol/graphicsutility.h \
+    src/screensnap/objectscontrol/graphicstextedit.h \
+    src/screensnap/editor/screensnapeditor.h \
+    src/screensnap/dialog/screensnapdialog.h \
+    src/screensnap/screensnap.h \
+    src/screensnap/primitives.h \
+    src/screensnap/metatypetextdocument.h \
+    src/application.h \
+    src/applicationfactory.h \
+    src/preferencesdialog.h \
+    src/labeledlineedit.h \
+    src/qanimationlabel.h \
+    src/labeledplaintextedit.h \
+    src/choosemultiplefileswidget.h \
+    src/choosemultiplefilesentrywidget.h \
+    src/noscrolltextedit.h \
+    src/mystatusbar.h \
+    src/globalshortcut.h \
+    src/settingskeys.h \
+    src/oneinstance.h \
+    src/autorun/macautorun.h \
+    src/autorun/autorunimp.h \
+    src/autorun/autorun.h
 
 FORMS += \
-    logindialog.ui \
-    mainuiwidget.ui \
-    screensnap/editor/screensnapeditor.ui \
-    screensnap/dialog/screensnapdialog.ui \
-    preferencesdialog.ui \
-    aboutdialog.ui
+    src/logindialog.ui \
+    src/mainuiwidget.ui \
+    src/screensnap/editor/screensnapeditor.ui \
+    src/screensnap/dialog/screensnapdialog.ui \
+    src/preferencesdialog.ui \
+    src/aboutdialog.ui
 
 RESOURCES += \
-    resources.qrc
+    resources/resources.qrc
+
+INCLUDEPATH += src/
 
 mac {
-    HEADERS += macapplication.h \
-        autorun/macautorun.h
-    OBJECTIVE_SOURCES += macapplication.mm
+    HEADERS += src/macapplication.h \
+        src/autorun/macautorun.h
+    OBJECTIVE_SOURCES += src/macapplication.mm
     LIBS += -framework Cocoa -framework Carbon
-    SOURCES += globalshortcut_mac.cpp \
-        autorun/macautorun.cpp
-    ICON = mac/icon.icns
+    SOURCES += src/globalshortcut_mac.cpp \
+        src/autorun/macautorun.cpp
+    ICON = resources/mac/icon.icns
 }
 win32 {
-    RC_FILE = win/icon.rc
-    HEADERS += autorun/winautorun.h
-    SOURCES += globalshortcut_win.cpp \
-        autorun/winautorun.cpp
+    RC_FILE = resources/win/icon.rc
+    HEADERS += src/autorun/winautorun.h
+    SOURCES += src/globalshortcut_win.cpp \
+        src/autorun/winautorun.cpp
 }
 unix:!macx {
-    HEADERS += autorun/x11autorun.h
-    SOURCES += globalshortcut_x11.cpp \
-        autorun/x11autorun.cpp
+    HEADERS += src/autorun/x11autorun.h
+    SOURCES += src/globalshortcut_x11.cpp \
+        src/autorun/x11autorun.cpp
 }
